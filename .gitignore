@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Environment — NEVER commit this
+.env
+
+# ChromaDB
+chroma_db/
+
+# Evaluation output
+backend/evaluation/results.json
+backend/evaluation/conflict_results.json
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
